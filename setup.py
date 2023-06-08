@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 VERSION = '0.1.1'
 DESCRIPTION = "Package providing functional error handling."
-LONG_DESCRIPTION = "Package provinding functional error handling in 'monadic'-like way. Allows you to create wrapped value from success value or an error, apply functions to wrapped value and unwrap."
+LONG_DESCRIPTION = "Package providing functional error handling in 'monadic'-like way. Allows you to create wrapped value from success value or an error, apply functions to wrapped value and unwrap."
 
 setup(
     name="pyerr",
